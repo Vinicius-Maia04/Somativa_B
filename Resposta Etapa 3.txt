@@ -1,9 +1,16 @@
 
-	Para a criação de um ambiente de armazenamento de arquivos como um "Google Drive", com a possibilidade de compartilhamento entre usuários, uma opção mais adequada seria utilizar um banco de dados NoSQL em vez de um banco de dados SQL tradicional.
+	Para a criação de um ambiente de armazenamento de arquivos como um "Google Drive", com a possibilidade de compartilhamento entre usuários, uma opção mais adequada seria utilizar um banco de dados NoSQL em vez de
+	um banco de dados SQL tradicional.
 
 
 	Justificativas:
 
-	Flexibilidade de esquema: Uma das vantagens do banco de dados NoSQL é a flexibilidade de esquema. Em um sistema de armazenamento de arquivos, os usuários podem fazer upload de diferentes tipos de arquivos, como documentos, imagens, vídeos etc., cada um com sua própria estrutura de dados. Com um banco de dados NoSQL, não há a necessidade de definir previamente um esquema rígido para todos os tipos de arquivo. Isso permite que os usuários armazenem qualquer tipo de arquivo sem restrições de formato ou estrutura.
-	Escalabilidade horizontal: O armazenamento de arquivos em uma aplicação como um "Google Drive" pode gerar um volume significativo de dados, especialmente considerando o compartilhamento entre usuários. O modelo de banco de dados NoSQL é mais adequado para lidar com a escalabilidade horizontal, ou seja, a capacidade de distribuir os dados em vários servidores para lidar com grandes volumes de dados e tráfego. É mais fácil adicionar novos servidores ao cluster NoSQL para aumentar a capacidade de armazenamento e atender ao crescimento da demanda.
-	Desempenho na recuperação de dados: No contexto de um sistema de armazenamento de arquivos, o desempenho na recuperação de dados é uma consideração essencial. Os bancos de dados NoSQL, como os orientados a documentos, chave-valor ou colunares, são projetados para fornecer uma alta taxa de transferência e baixa latência ao acessar dados. Isso é especialmente importante quando se trata de servir arquivos para usuários em um aplicativo móvel, onde a velocidade de acesso é crucial para proporcionar uma boa experiência do usuário.
+	Flexibilidade de esquema: Uma das vantagens do banco de dados NoSQL é a flexibilidade de esquema. Em um sistema de armazenamento de arquivos, os usuários podem fazer upload de diferentes tipos de arquivos,
+	como documentos, imagens, vídeos etc., cada um com sua própria estrutura de dados. Com um banco de dados NoSQL, não há a necessidade de definir previamente um esquema rígido para todos os tipos de arquivo.
+	Isso permite que os usuários armazenem qualquer tipo de arquivo sem restrições de formato ou estrutura.
+	Escalabilidade horizontal: O armazenamento de arquivos em uma aplicação como um "Google Drive" pode gerar um volume significativo de dados, especialmente considerando o compartilhamento entre usuários.
+	O modelo de banco de dados NoSQL é mais adequado para lidar com a escalabilidade horizontal, ou seja, a capacidade de distribuir os dados em vários servidores para lidar com grandes volumes de dados e tráfego.
+	É mais fácil adicionar novos servidores ao cluster NoSQL para aumentar a capacidade de armazenamento e atender ao crescimento da demanda.
+	Desempenho na recuperação de dados: No contexto de um sistema de armazenamento de arquivos, o desempenho na recuperação de dados é uma consideração essencial. Os bancos de dados NoSQL, como os orientados a
+	documentos, chave-valor ou colunares, são projetados para fornecer uma alta taxa de transferência e baixa latência ao acessar dados. Isso é especialmente importante quando se trata de servir arquivos para
+	usuários em um aplicativo móvel, onde a velocidade de acesso é crucial para proporcionar uma boa experiência do usuário.
