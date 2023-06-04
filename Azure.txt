@@ -1,0 +1,4 @@
+Nome do Host: somativa-maia.mysql.database.azure.com
+Nome do Servidor: somativa-maia
+Usuário: somativabcd
+Senha: BancoSenha123*
